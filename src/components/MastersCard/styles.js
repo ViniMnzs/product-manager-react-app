@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { ReactComponent as LogoPf } from '../../assets/images/pfcardexp.svg';
 import { colors } from '../../assets/utils/colors';
 
 export const Container = styled.div`
@@ -57,10 +56,10 @@ export const BackTitle = styled.span`
     }
 `;
 
-export const Logo = styled(LogoPf)`
+export const Logo = styled.img`
     height: 150px;
     width: 150px;
-    border-radius: 50px;
+    border-radius: 20px;
 `;
 
 export const Line = styled.div`
@@ -94,4 +93,15 @@ export const Text = styled.p`
     text-align: center;
     font-size: 14px;
     line-height: 30px;
+`;
+
+export const Shadow = styled.div`
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+
+    :hover {
+        background-color: black;
+        opacity: 0.1;
+    }
 `;

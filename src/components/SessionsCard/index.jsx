@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { AiOutlineClockCircle, AiOutlineCalendar, AiFillPlayCircle } from 'react-icons/ai';
-
+import Session from '../../assets/images/session.png';
 import { data } from './mock';
 
 import {
@@ -49,7 +49,7 @@ export default function SessionsCard() {
             </SubContainer>
             <SubContainer key={value.session}>
               <SubLine>
-                <Logo />
+                <Logo src={Session} />
                 <TextContainer>
                   <Text>{value.text}</Text>
                 </TextContainer>

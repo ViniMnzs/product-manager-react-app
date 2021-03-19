@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import Masters from '../../assets/images/session.png';
 import { data } from './mock';
 
 import {
@@ -11,6 +12,7 @@ import {
   Text,
   BackTitle,
   Card,
+  Shadow,
 } from './styles';
 
 export default function MastersCard() {
@@ -25,7 +27,9 @@ export default function MastersCard() {
           {
             data.map((value) => (
               <Card key={value.name}>
-                <Logo />
+                <Shadow>
+                  <Logo src={Masters} />
+                </Shadow>
                 <Text><strong>{value.name}</strong></Text>
                 <Text>{value.description}</Text>
               </Card>
