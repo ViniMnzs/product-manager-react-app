@@ -1,0 +1,21 @@
+/* eslint-disable import/prefer-default-export */
+export const colors = {
+  B1: '#000000',
+  B2: '#111111',
+  B3: '#0F0F0F',
+  B4: '#101010',
+  B5: '#030504',
+  B6: '#1A1818',
+  B7: '#00000012',
+  w1: '#FFFFFF',
+  hover_btn: '#ACACAC',
+  ice: '#FAFAFA',
+  C2: '#2C2C2C0F',
+  C8: '#8D8D8D',
+  WF8: '#F8F8F8',
+  orange: '#F46632',
+  orange_hover: '#F36732',
+  water: '#29D089',
+  bgcolor: '#2222220F',
+  backtitle: '#2929290F',
+};
